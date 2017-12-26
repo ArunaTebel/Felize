@@ -1,2 +1,4 @@
 .idea
 env
+FelizeAPI/FelizeAPI/__pycache__/
+FelizeAPI/db.sqlite3
