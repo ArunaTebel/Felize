@@ -42,7 +42,7 @@ This is the REST API of the Felize - Project Management Application. The API is 
 
 7. Migrate the models and flush the database by executing the below command.
     
-    >`python manage.py makemigrations`
+    >`python manage.py makemigrations && python manage.py migrate`
 8. Create a super user account to use with the Admin site.
     
     >`python manage.py createsuperuser`
