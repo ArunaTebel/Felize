@@ -1,8 +1,9 @@
 **ArCheun - Felize | REST API**
+=======
 
-This is the REST API of the Felize - Project Management Application
- 
-The API is built using Django + Django REST Framework + Django OAuth Toolkit
+This is the REST API of the Felize - Project Management Application. The API is built using Django + Django REST Framework + Django OAuth Toolkit
+
+---
 
 **How to setup and run the API Server**
 
@@ -16,7 +17,7 @@ The API is built using Django + Django REST Framework + Django OAuth Toolkit
 5. Install Django + dependencies. This can be done in two ways.
 
     1. Using `virtualenv` (RECOMMENDED)
-        1. Install `virtualenv` by referring to this guide => https://virtualenv.pypa.io/en/stable/installation/
+        1. Install `virtualenv` by referring to **[this](https://virtualenv.pypa.io/en/stable/installation/)** guide
         2. Using the terminal navigate into the project root directory (the one we just cloned above).
         3. Execute the below command (Replace python3.4 with the correct python version you installed)
             
@@ -49,6 +50,8 @@ The API is built using Django + Django REST Framework + Django OAuth Toolkit
     
     >`python manage.py runserver`
     
+---
+    
 **How to setup a client application**
 
 1. After starting the server, using the browser open the admin site using the below url and log into the system using super user account credentials we just created above.
@@ -61,6 +64,8 @@ The API is built using Django + Django REST Framework + Django OAuth Toolkit
     Name: Provide any name
     
 4. Save
+
+---
 
 **How to communicate with the API**
 1. After successfully setting up an application, you can communicate to the API using any HTTP client of your preference. Below examples are using `curl` shell command
